@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fizz testing</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div class="main">
+		<!-- header -->
+		<header>
+			<!-- header parte superior -->
+			<section class="header-superior">
+				<div class="header-superior-opciones">
+					<ul>
+
+						<li><i class="icono-sucursales"></i> SUCURSALES</li>
+						<li> <i class="icono-como-comprar"></i> COMO COMPRAR</li>
+						<li>MIS PEDIDOS</li>
+					</ul>
+				</div>
+			</section>
+			<!-- fin header parte superior -->
+			<!-- header parte inferior -->
+			<section class="header-inferior">
+				<div class="logo">
+					<img src="img/logo.jpg">
+				</div>
+				<div class="buscador">
+					<form id="searchform">
+					     <input type="text" placeholder="Buscar por productos, deportes o marcas..." required>
+					     <button type="submit"></button>
+					 </form>
+				</div>
+				<div class="oferta">
+					<img src="img/oferta.gif">
+				</div>
+			</section>
+			<!-- fin header parte inferior -->
+		</header>
+		<!-- header -->
+	</div>
+
+
+
+
+
+  <!-- ++++++++ menu de la pagina +++ -->
+	<div class="menu">
+		<div class="main menu-flex">
+			<nav>
+				<ul>
+					<li>	
+						<a href="#">HOMBRE</a>
+						<div class="submenu">
+							<div class="contenedor-imagen-triangulo">
+								<img src="img/triang.png">
+							</div>
+							<div class="submenu-a">
+								<h4 class="submenu-a-titulo">CALZADO</h4>
+								<ul >
+									<li><a href="#">Botines</a></li>
+									<li><a href="#">Zapatillas</a></li>
+									<li><a href="#">Botines con tapones</a></li>
+									<li><a href="#">Ojotas/Chinelas</a></li>
+									<li><a href="#">Sandalia</a></li>
+									<li><a href="#">Ver más  <img  src="img/flecha-ver-mas.png"> </a></li>
+								</ul>
+							</div>
+							<div class="submenu-b">
+								<div class="submenu-b-contenedor-imagenes">
+									<img src="img/soquetes.jpg">
+								</div>
+								<p  >MEDIAS ADIDAS ADILINER HC 3S</p>
+								
+								<div class="contenedor-precio-marcas-categoria">
+									<span class="precio">$ 109,00</span>
+									<div class="marca">
+										<img src="img/adidas.png">
+									</div>
+								</div>
+							</div>
+			
+						</div>
+					</li>
+					<span class="barra"></span>
+					<li>
+						<a href="#">MUJER</a>
+						<div class="submenu">
+							<div class="contenedor-imagen-triangulo">
+								<img src="img/triang.png">
+							</div>
+							<div class="submenu-a">
+								<h4 class="submenu-a-titulo">CALZADO</h4>
+								<ul >
+									<li><a href="#">Botines</a></li>
+									<li><a href="#">Zapatillas</a></li>
+									<li><a href="#">Botines con tapones</a></li>
+									<li><a href="#">Ojotas/Chinelas</a></li>
+									<li><a href="#">Sandalia</a></li>
+									<li><a href="#">Ver más  <img  src="img/flecha-ver-mas.png"> </a></li>
+								</ul>
+							</div>
+							<div class="submenu-b">
+								<div class="submenu-b-contenedor-imagenes">
+									<img src="img/soquetes.jpg">
+								</div>
+								<p  >MEDIAS ADIDAS ADILINER HC 3S</p>
+								
+								<div class="contenedor-precio-marcas-categoria">
+									<span class="precio">$ 109,00</span>
+									<div class="marca">
+										<img src="img/adidas.png">
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</li>
+					<span class="barra"></span>
+					<li>
+						<a href="#">NIÑOS</a>
+						<div class="submenu">
+							<div class="contenedor-imagen-triangulo">
+								<img src="img/triang.png">
+							</div>
+							<div class="submenu-a">
+								<h4 class="submenu-a-titulo">CALZADO</h4>
+								<ul >
+									<li><a href="#">Botines</a></li>
+									<li><a href="#">Zapatillas</a></li>
+									<li><a href="#">Botines con tapones</a></li>
+									<li><a href="#">Ojotas/Chinelas</a></li>
+									<li><a href="#">Sandalia</a></li>
+									<li><a href="#">Ver más  <img  src="img/flecha-ver-mas.png"> </a></li>
+								</ul>
+							</div>
+							<div class="submenu-b">
+								<div class="submenu-b-contenedor-imagenes">
+									<img src="img/soquetes.jpg">
+								</div>
+								<p  >MEDIAS ADIDAS ADILINER HC 3S</p>
+								
+								<div class="contenedor-precio-marcas-categoria">
+									<span class="precio">$ 109,00</span>
+									<div class="marca">
+										<img src="img/adidas.png">
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</li>
+					<span class="barra"></span>
+				</ul>
+			</nav>
+			<div class="carrito">
+				<ul>
+					<li>Carrito</li>
+					<li><img src="img/carrito.png"></li>
+					<li>0</li>
+					<li>$ 0,00</li>
+				</ul>
+			</div>
+		</div>
+	</div>	
+	<!-- ++++++++ fin menu de la pagina +++ -->
+
+
+
+
+
+	<!-- imagen-slider -->
+	<div class="main">
+		<img class="imagenes-centrales" src="img/slider.jpg">
+		<img id="marcasCentrales" class="imagenes-centrales" src="img/marcas.jpg">
+		<div id="resultadoFetch"></div>
+	</div>
+	<!--fin imagen-slider -->
+
+
+
+
+	<!-- seccion: filtrado por -->
+	<div class="main">
+		<div class="filtrado">
+			<h4>FILTRADO POR</h4>
+			<div class="sexo">
+				<div id="sexo-desplegable" class="sexo-cabecera">
+					<span>SEXO</span> 
+					<div class="imagen-desplegable">
+						<img src="img/desplegable.png">
+					</div>
+				</div> 
+				<div id="sexo-opciones" class="radio-buttons">
+					<ul>
+						<li>
+							<input type="radio" id="contactChoice1"
+						     name="contact" value="email">
+						    <label for="contactChoice1">Hombre</label>
+						</li>
+						<li>
+							<input type="radio" id="contactChoice2"
+						     name="contact" value="phone">
+						    <label for="contactChoice2">Mujer</label>
+						</li>
+						<li>
+							 <input type="radio" id="contactChoice3"
+						     name="contact" value="mail">
+						    <label for="contactChoice3">Niños</label>
+						</li>
+					</ul>
+				</div>
+		    </div>
+		    <div class="deporte">
+			    <div id="deporte-desplegable" class="deporte-cabecera">
+			    	<span>DEPORTE</span> 
+					<div class="imagen-desplegable">
+						<img src="img/desplegable.png">
+					</div>
+			    </div>
+			    <div id="deporte-opciones" class="radio-buttons">
+					<ul>
+						<li>
+							<input type="radio" id="contactChoice1"
+						     name="contact" value="email">
+						    <label for="contactChoice1">Hombre</label>
+						</li>
+						<li>
+							<input type="radio" id="contactChoice2"
+						     name="contact" value="phone">
+						    <label for="contactChoice2">Mujer</label>
+						</li>
+						<li>
+							 <input type="radio" id="contactChoice3"
+						     name="contact" value="mail">
+						    <label for="contactChoice3">Niños</label>
+						</li>
+					</ul>
+				</div>
+			 </div>    
+		    <div class="color">
+		    	<div id="color-desplegable"  class="color-cabecera">
+		    		<span>COLOR</span> 
+		    		<div class="imagen-desplegable">
+						<img src="img/desplegable.png">
+					</div>
+				</div>
+				<div id="color-opciones" class="radio-buttons">
+					<ul>
+						<li>
+							<input type="radio" id="contactChoice1"
+						     name="contact" value="email">
+						    <label for="contactChoice1">Hombre</label>
+						</li>
+						<li>
+							<input type="radio" id="contactChoice2"
+						     name="contact" value="phone">
+						    <label for="contactChoice2">Mujer</label>
+						</li>
+						<li>
+							 <input type="radio" id="contactChoice3"
+						     name="contact" value="mail">
+						    <label for="contactChoice3">Niños</label>
+						</li>
+					</ul>
+				</div>
+		    </div>
+		</div>
+		<!-- fin seccion: filtrado por -->
+
+
+
+		<!-- articulos -->
+	
+		<div class="articulos">
+
+
+				<!--articulo individual -->
+				<div class="articulos-individuales">
+					<div class="articulos-individuales-foto-a">
+						<img src="img/foto-1.jpg">
+					</div>
+					
+					<p>CAMISETA DE FUTBOL ADIDAS RIVER PLATE AWAY</p>
+					<div class="contenedor-precio-marcas-categoria">
+						<span class="precio">$849,00</span>
+						<div class="marca">
+							<img src="img/adidas.png">
+						</div>
+					</div>
+					<span class="categoria">
+						CAMISETAS FUTBOL
+					</span>
+				</div>
+				<!-- fin articulo indidual-->
+				<!--articulo individual -->
+				<div class="articulos-individuales">
+					<div class="articulos-individuales-foto-a">
+						<img src="img/short.jpg">
+					</div>
+					
+					<p>SHORT NIKE SQUAD STRIKE LGR</p>
+					<div class="contenedor-precio-marcas-categoria">
+						<span class="precio">$399,00</span>
+						<div class="marca">
+							<img src="img/nike.png">
+						</div>
+					</div>
+					<span class="categoria">
+						SHORT
+					</span>
+				</div>
+				<!-- fin articulo indidual-->
+				<!--articulo individual -->
+				<div class="articulos-individuales">
+					<div class="articulos-individuales-foto-a">
+						<img src="img/zapatillas.jpg">
+					</div>
+					
+					<p> <span class="oferta">OFERTA</span>  ZAPATILLAS ADIDAS</p>
+					<div class="contenedor-precio-marcas-categoria">
+						<span class="precio">$450,00</span>
+						<div class="marca">
+							<img src="img/adidas.png">
+						</div>
+					</div>
+					<span class="categoria">
+						CAMISETAS FUTBOL
+					</span>
+				</div>
+				<!-- fin articulo indidual-->
+				<!--articulo individual -->
+				<div class="articulos-individuales">
+					<div class="articulos-individuales-foto-a">
+						<img src="img/remera-boca.jpg">
+					</div>
+					
+					<p>CAMISETA DE FUTBOL NIKE BOCA AWAY</p>
+					<div class="contenedor-precio-marcas-categoria">
+						<span class="precio">$849,00</span>
+						<div class="marca">
+							<img src="img/nike.png">
+						</div>
+					</div>
+					<span class="categoria">
+						CAMISETAS FUTBOL
+					</span>
+				</div>
+				<!-- fin articulo indidual-->
+				<!--articulo individual -->
+				<div class="articulos-individuales">
+					<div class="articulos-individuales-foto-a">
+						<img src="img/remera-boca.jpg">
+					</div>
+					
+					<p>CAMISETA DE FUTBOL NIKE BOCA AWAY</p>
+					<div class="contenedor-precio-marcas-categoria">
+						<span class="precio">$849,00</span>
+						<div class="marca">
+							<img src="img/nike.png">
+						</div>
+					</div>
+					<span class="categoria">
+						CAMISETAS FUTBOL
+					</span>
+				</div>
+				<!-- fin articulo indidual-->
+				<!--articulo individual -->
+				<div class="articulos-individuales">
+					<div class="articulos-individuales-foto-a">
+						<img src="img/zapatillas.jpg">
+					</div>
+					
+					<p> <span class="oferta">OFERTA</span>  ZAPATILLAS ADIDAS</p>
+					<div class="contenedor-precio-marcas-categoria">
+						<span class="precio">$450,00</span>
+						<div class="marca">
+							<img src="img/adidas.png">
+						</div>
+					</div>
+					<span class="categoria">
+						CAMISETAS FUTBOL
+					</span>
+				</div>
+				<!-- fin articulo indidual-->
+				<!--articulo individual -->
+				<div class="articulos-individuales">
+					<div class="articulos-individuales-foto-a">
+						<img src="img/foto-1.jpg">
+					</div>
+					
+					<p>CAMISETA DE FUTBOL ADIDAS RIVER PLATE AWAY</p>
+					<div class="contenedor-precio-marcas-categoria">
+						<span class="precio">$849,00</span>
+						<div class="marca">
+							<img src="img/adidas.png">
+						</div>
+					</div>
+					<span class="categoria">
+						CAMISETAS FUTBOL
+					</span>
+				</div>
+				<!-- fin articulo indidual-->
+				<!--articulo individual -->
+				<div class="articulos-individuales">
+					<div class="articulos-individuales-foto-a">
+						<img src="img/short.jpg">
+					</div>
+					
+					<p>SHORT NIKE SQUAD STRIKE LGR</p>
+					<div class="contenedor-precio-marcas-categoria">
+						<span class="precio">$399,00</span>
+						<div class="marca">
+							<img src="img/nike.png">
+						</div>
+					</div>
+					<span class="categoria">
+						SHORT
+					</span>
+				</div>
+				<!-- fin articulo indidual-->
+				<h3>EJERCICIO JAVASCRIPT 2 , 3 y 4</h3>
+				<!--Producto del 1 al 5-->
+				<div id="div1" class="articulos-individuales"  name="DIVS">
+					
+				</div>
+				<div id="div2" class="articulos-individuales" name="DIVS">
+					
+				</div>
+				<div id="div3" class="articulos-individuales" name="DIVS">
+					
+				</div>
+				<div id="div4" class="articulos-individuales" name="DIVS">
+					
+				</div>
+				<div id="div5" class="articulos-individuales" name="DIVS">
+					
+				</div>
+		</div>
+		<!-- fin articulos -->
+	</div>
+	
+
+	<footer>
+		<div class="footer-contenedor-imagenes">
+			<img src="img/footer-fizzmod.png">
+		</div>
+		<div class="footer-contenedor-imagenes">
+			<img src="img/footer-marca1.png">
+		</div>
+	</footer>
+
+
+<script
+  src="http://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/javascript.js"></script>
+</body>
+</html>
